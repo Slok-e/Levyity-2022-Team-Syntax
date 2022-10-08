@@ -29,15 +29,16 @@ WORK (Components) User Flow
 - Jobs
 - New Company arrivals
 INVEST (Components) User Flow
-- "Hollidium" a crowd source investment tool for low income families to microtransact in the business and real estate realm
+- "Hollidium" a crowd sourced investment tool for low income families to microtransact in the business and real estate realm
 - Grow your Business
 - Volunteer
-- 
+- Purchase Monumentum ( Monumentum is an Augmented Reality permanent virtual monument to you or your organization)
 PLAY (Components) User Flow
 - Events
 - Parks
 - Facility Rentals
 - City Pass ( City pass is a digital currency that is purchased on the platform for access to microservices that the city prearranges payment for to stimulate small business)
+- City Parking Pass (Location based e-commerce parking solution, Pay with City Pass or card)
 
 
 
@@ -64,3 +65,10 @@ Stretch or Nice to haves.
 - Integrates with Google Calendar (other Calendars)
 - Intergrate custom waypoints onto Google Maps
 - Purchase three items: City Passes ($1,000USD/ETH - CityGold, $500USD/ETH CitySilver, $100USD/ETH CitySavior)
+
+##### Application Benefits 
+
+-City Revenue from Monumentum
+-City Revenue from CityPass
+-City Resident savings on Utility Bills transacted with CityPass
+-Secondary stakeholders have better visiting experience
