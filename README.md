@@ -5,7 +5,9 @@
 ### Create a Figma Design File
 ### Create a Presentation File
 
-#### Problem : How Might We : create a user experience for visitors and residents that leverages all city services.
+#### Problem Statement: The city Hollywood is not easily accessible and residency doesn't come with perks
+
+#### How Might We : create a user experience for visitors and residents that leverages all city services.
 
 
 ###### We are building is a Multi-Service Application experience for city residents and visitors. The Front-End build is in REACT using the REACT-DOM/CLIENT
