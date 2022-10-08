@@ -17,7 +17,7 @@ The Back-End is not decided (Django etc.... )Our main innovation is design not t
 
 ##### Application features
 
-LIVE (Components) User Flow 
+LIVE (Components) User Flow
 - Report an issue
 - District News
 - Housing Authority
