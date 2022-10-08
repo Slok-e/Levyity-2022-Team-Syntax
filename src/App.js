@@ -1,22 +1,25 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
+import Live from "./components/Live";
+import Play from "./components/Play";
+import Work from "./components/Work";
+import Invest from "./components/Invest";
 
 function App() {
-  const sections = [
-    { title: "Live", description: "life in hollywood" },
-    { title: "Play", description: "play in hollywood" },
-  ];
-
-  const cards = sections.map((section) => (
-    <Card title={section.title} description={section.description} />
-  ));
-
   return (
-    <div>
+    <main className="container mx-auto">
       <Navbar />
-      <div>{cards}</div>
-    </div>
+      <Routes>
+        <Route path={"/live"} element={<Live />} />
+        <Route path={"/play"} element={<Play />} />
+        <Route path={"/work"} element={<Work />} />
+        <Route path={"/invest"} element={<Invest />} />
+
+        {/* <div>{cards}</div> */}
+      </Routes>
+    </main>
   );
 }
 
