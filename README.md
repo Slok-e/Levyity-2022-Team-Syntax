@@ -5,7 +5,7 @@
 ### Create a Figma Design File
 ### Create a Presentation File
 
-#### Problem Statement: The city Hollywood is not easily accessible and residency doesn't come with perks
+#### Problem Statement: The city Hollywood is not easily accessible to live, invest, work and play.
 
 #### How Might We : create a user experience for visitors and residents that leverages all city services.
 
