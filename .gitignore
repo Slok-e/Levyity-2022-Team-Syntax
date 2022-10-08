@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#pycache
+/backend/backend/__pycache__
+/backend/hollywoodcentralhub/__pycache__
+/backend/hollywoodcentralhub/migrations/__pycache__
