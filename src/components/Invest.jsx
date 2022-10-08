@@ -1,4 +1,5 @@
 import Card from "./Card";
+import { Grid } from "@mui/material";
 
 const sections = [
   {
@@ -11,9 +12,9 @@ const sections = [
 ];
 
 const cards = sections.map((section) => (
-  <div className={`grid grid-cols-${section.size}`}>
+  <Grid container item xs={6}>
     <Card title={section.title} description={section.description} />
-  </div>
+  </Grid>
 ));
 
 function Live() {
