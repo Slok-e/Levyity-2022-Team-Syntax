@@ -12,7 +12,7 @@ const Card = (props) => {
       </figure>
       <div className="card-body items-center text-center">
         <h2 className="card-title">{props.title}</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <p>{props.description}</p>
       </div>
     </div>
   );
