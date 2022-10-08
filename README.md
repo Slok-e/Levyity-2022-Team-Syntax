@@ -1,74 +1,70 @@
-# Levyity-2022-Team-Syntax
+# Getting Started with Create React App
 
-## List of todos
-### Create a Github repo with README | Done
-### Create a Figma Design File | Done
-#### https://www.figma.com/file/aWI7AaJqmnBxgkZknIoFQi/USWDS-3.0.2-(Figma)-(Community)?node-id=0%3A1
-### Create a Presentation File | In Process
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-#### Problem Statement: The city Hollywood is not easily accessible to live, invest, work and play.
+## Available Scripts
 
-#### How Might We : create a user experience for visitors and residents that leverages all city services.
+In the project directory, you can run:
 
+### `npm start`
 
-###### We are building is a Multi-Service Application experience for city residents and visitors. The Front-End build is in REACT using the REACT-DOM/CLIENT
-The Back-End is not decided (Django etc.... )Our main innovation is design not technology so user experience and accessibility focused
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-##### Application features
+### `npm test`
 
-LIVE (Components) User Flow 
-- Report an issue
-- District News
-- Housing Authority
-- Pay Property Taxes
-WORK (Components) User Flow
-- Micro Transit
-- Public Transit
-- Coworking
-- Jobs
-- New Company arrivals
-INVEST (Components) User Flow
-- "Hollidium" a crowd sourced investment tool for low income families to microtransact in the business and real estate realm
-- Grow your Business
-- Volunteer
-- Purchase Monumentum ( Monumentum is an Augmented Reality permanent virtual monument to you or your organization)
-PLAY (Components) User Flow
-- Events
-- Parks
-- Facility Rentals
-- City Pass ( City pass is a digital currency that is purchased on the platform for access to microservices that the city prearranges payment for to stimulate small business)
-- City Parking Pass (Location based e-commerce parking solution, Pay with City Pass or card)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- a User has a Profile
-- a User has attributes {
-id: "0001"
-email: "userJohn@gmail.com"
-password: "ASDFJKL:"
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-userInterests:["Parks", "Reading", "Kayaking", "Tennis", "Volunteering"]
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-userSubscriptions: ["Water Quality", "Road Closure/Traffic", "EMS", "Weather/Disaster"]
+### `npm run eject`
 
-userImage: {image: "levyity.com/images/Selfy.png"}
-}
-- Payment Processor (Stripe) Benefit ... (No off-site payments) / Save money for small business
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- Single form containing list of all forms (List of forms is a drop down , on click of list item view rerenders and display the corresponding form)
-    Issue - List of all forms ["Volunteer form": "Form View 1", "Security Alarm form": "Form View 2", "Housing Assistance form": "Form View 3", "Volunteer form": "Form View 4", etc : "etc:]
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- Form stores data to be used on Payment processor
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Stretch or Nice to haves.
-- Integrates with Google Calendar (other Calendars)
-- Intergrate custom waypoints onto Google Maps
-- Purchase three items: City Passes ($1,000USD/ETH - CityGold, $500USD/ETH CitySilver, $100USD/ETH CitySavior)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-##### Application Benefits 
+## Learn More
 
--City Revenue from Monumentum
--City Revenue from CityPass
--City Resident savings on Utility Bills transacted with CityPass
--Secondary stakeholders have better visiting experience
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
