@@ -1,9 +1,10 @@
 # Levyity-2022-Team-Syntax
 
 ## List of todos
-### Create a Github with README
-### Create a Figma Design File
-### Create a Presentation File
+### Create a Github repo with README | Done
+### Create a Figma Design File | Done
+#### https://www.figma.com/file/aWI7AaJqmnBxgkZknIoFQi/USWDS-3.0.2-(Figma)-(Community)?node-id=0%3A1
+### Create a Presentation File | In Process
 
 #### Problem Statement: The city Hollywood is not easily accessible to live, invest, work and play.
 
