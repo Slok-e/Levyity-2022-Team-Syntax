@@ -1,11 +1,14 @@
+import { Grid, Typography } from "@mui/material";
 import React from "react";
 
 const Widget = (props) => {
   return (
-    <div>
-      <h2>{props.title}</h2>
+    <Grid container item direction={"column"}>
+      <Typography variant="h6" component="h2">
+        {props.title}
+      </Typography>
       <p>{props.content}</p>
-    </div>
+    </Grid>
   );
 };
 

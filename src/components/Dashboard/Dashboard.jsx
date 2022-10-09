@@ -6,17 +6,60 @@ import Grid from "@mui/material/Grid";
 import Announcement from "./Announcement";
 import Notification from "./Notifications";
 import Widget from "./Widget";
+import { MinorCrash } from "@mui/icons-material";
+import { Button, Typography } from "@mui/material";
 
 const Item = styled(Paper)(({ theme }) => ({
-  textAlign: "center",
+  // textAlign: "center",
+  padding: theme.spacing(2),
   color: theme.palette.text.secondary,
 }));
 
+const serviceRequest = (
+  <Grid container justifyContent={"space-around"} alignItems={"center"}>
+    <Grid item sm={2}>
+      <MinorCrash
+        sx={{
+          width: "3rem",
+          height: "3rem",
+          color: "var(--city-orange)",
+          margin: "15px",
+        }}
+      />
+    </Grid>
+    <Grid item sm={6}>
+      <Typography variant="subtitle1" component={"div"}>
+        Harzards Condition Request
+      </Typography>
+      <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        submited 10/01/2022
+      </Typography>
+    </Grid>
+    <Grid item sm={2}>
+      <Button>More Details</Button>
+    </Grid>
+  </Grid>
+);
+
+const buildingPermit = (
+  <Grid container justifyContent={"space-between"} alignItems={"center"}>
+    <Grid item sm={6} mt={1}>
+      <Typography variant="subtitle1" component={"div"}>
+        New Fence
+      </Typography>
+      <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        8/22/2022 - Submitted
+      </Typography>
+    </Grid>
+    <Button>Status: Pending</Button>
+  </Grid>
+);
+
 const Dashboard = (props) => {
   const widgets = [
-    { title: "Service Request", content: "card content", size: 8 },
+    { title: "Service Request", content: serviceRequest, size: 8 },
     { title: "Utilities: Water", content: "card content", size: 4 },
-    { title: "Building Permit", content: "card content", size: 8 },
+    { title: "Building Permit", content: buildingPermit, size: 8 },
     { title: "Property Taxes", content: "card content", size: 4 },
   ];
 
