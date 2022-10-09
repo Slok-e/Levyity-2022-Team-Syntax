@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Card from "./components/Card";
+import Dashboard from "./components/Dashboard/Dashboard";
 import Live from "./components/Live";
 import Play from "./components/Play";
 import Work from "./components/Work";
@@ -11,6 +11,7 @@ function App() {
   return (
     <main className="container mx-auto">
       <Navbar />
+      <Dashboard />
       <Routes>
         <Route path={"/live"} element={<Live />} />
         <Route path={"/play"} element={<Play />} />
