@@ -1,10 +1,27 @@
-# Getting Started with Create React App
+# Welcome to Syntax Warriors
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Florida Tech Hub Hack My City Hackathon 2022!
 
-## Available Scripts
+# Our Project
 
-In the project directory, you can run:
+## City of Hollywood Central City Hub
+
+![logo](./public/img/city-central-hub-logo_small.png)
+
+### Team Members:
+
+- Alex Frontend
+- Raj UX Writer
+- Daniele Frontend
+- Steven UX Research
+- Jasmine Frontend
+- Kelso Backend
+
+## Screenshot
+
+![screenshot](./public/img/Live-Dashboard.png)
+
+# Get Started
 
 ### `npm start`
 
