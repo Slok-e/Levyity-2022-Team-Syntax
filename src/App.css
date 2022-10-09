@@ -1,0 +1,21 @@
+:root {
+  --city-blue: #005298;
+  --city-blue-alpha: #0051984a;
+  --city-green: #32b643;
+  --city-orange: #f18e22;
+  --light-gray: #f8f8fb;
+  --slate-gray: #e7ecef;
+}
+.MuiSvgIcon-root .tab-icon {
+  width: 10px;
+  height: 10px;
+}
+.announcement-text {
+  padding: 2rem 0.5rem 0.5rem;
+  background: linear-gradient(to top, var(--city-blue) 0%, transparent 100%);
+  color: var(--light-gray);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
