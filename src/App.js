@@ -6,11 +6,13 @@ import Live from "./components/Live";
 import Play from "./components/Play";
 import Work from "./components/Work";
 import Invest from "./components/Invest";
+import TopNav from "./components/TopNav";
 
 function App() {
   return (
-    <main className="container mx-auto">
-      <Navbar />
+    <main className="w-screen bg-slate-200">
+      {/* <Navbar /> */}
+      <TopNav />
       <Routes>
         <Route path={"/live"} element={<Live />} />
         <Route path={"/play"} element={<Play />} />
