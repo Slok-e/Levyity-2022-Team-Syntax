@@ -17,7 +17,7 @@ function App() {
       <Grid item sm={3} style={{ height: "100%" }}>
         <Sidebar />
       </Grid>
-      <Grid item sm={9} style={{ height: "100%" }}>
+      <Grid item sm={9} my={2} style={{ height: "100%", padding: "1rem 1rem 1rem 0" }}>
         <Routes>
           <Route path={"/dashboard"} element={<Dashboard />} />
           <Route path={"/live"} element={<Live />} />
