@@ -6,4 +6,7 @@ class parkreservation(models.Model):
     image = models.ImageField()
     parkname = models.CharField(max_length=100)
     address = models.CharField(max_length=100)
-    pavillion = models.IntegerField(range(1,20))
+    pavillion = models.PositiveIntegerField()
+
+    def __str__(self) -> str:
+        return self.name
